@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-size: 15vw;
+
+
+}
+
+.animatedText {
+    animation: fade 1.5s ease-in;
+
+}
+
+@keyframes fade {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
