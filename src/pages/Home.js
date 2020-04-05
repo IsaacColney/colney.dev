@@ -1,10 +1,13 @@
-import React from 'react';
-import './Home.css';
+import React from "react";
+import "./Home.css";
 
 const Home = () => {
-    return (
-        <h1 className='animatedText' >Colney.dev</h1>
-    );
+  return (
+    <div className="container">
+    
+      <img src='./assets/logo.png' alt='colney.dev' />
+    </div>
+  );
 };
 
 export default Home;
