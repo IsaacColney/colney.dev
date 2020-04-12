@@ -1,16 +1,13 @@
-
 .container {
   position: relative;
   text-align: center;
-  height: calc(100vh - 40px);
+  height: 90vh;
   margin: 0;
   padding: 0;
-  img {
-    align-items: center;
-    height: calc(100vh - 40px);
-    width: 100vw;
-    animation: fade 3s ease-in;
-  }
+  background-image: url("../assets/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 @keyframes fade {
@@ -21,4 +18,3 @@
     opacity: 1;
   }
 }
-
