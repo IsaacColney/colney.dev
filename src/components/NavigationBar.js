@@ -6,10 +6,17 @@ const NavigationBar = props => {
     const openDrawer = () => {
         document.getElementsByClassName('drawer')[0].style.width = '50vw';
         document.getElementsByClassName('drawerList')[0].style.display = 'flex';
+        document.getElementsByTagName('body')[0].style.padding = '0 0 0 50vw';
+        // document.getElementsByClassName('container')[0].style.padding = '0 0  0 50vw';
+        // document.getElementsByClassName('nav-bar')[0].style.padding = '0 0  0 50vw';
+        
     };
     const closeDrawer = () => {
       document.getElementsByClassName('drawer')[0].style.width = '0';
       document.getElementsByClassName('drawerList')[0].style.display = 'none';
+      document.getElementsByTagName('body')[0].style.padding = '0';
+      // document.getElementsByClassName('container')[0].style.padding = '0';
+      // document.getElementsByClassName('nav-bar')[0].style.padding = '0';
     };
   
 
