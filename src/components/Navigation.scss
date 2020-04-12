@@ -82,6 +82,7 @@
       width: 30px;
       align-self: flex-end;
       cursor: pointer;
+      margin-bottom: 50px;
     }
     li {
       display: flex;
@@ -92,14 +93,27 @@
       align-items: center;
       vertical-align: middle;
       padding: 2vh 10vw;
-      
+      transition: ease 0.25s;
       &:hover {
         background-color: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
         cursor: pointer;
       }
+      &:active {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+      }
     }
   }
+}
+
+.logo {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  align-self: center;
+  margin: 0 auto;
+  padding-right: 20px;
 }
 
 @media (max-width: 769px) {

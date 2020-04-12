@@ -28,6 +28,7 @@ const NavigationBar = props => {
             <li>About</li>
           </ul>
         </div>
+        <img className='logo' src='./assets/logo-sm.png' alt='logo'/>
         <div className="link">
           <ul>
             <li>Home</li>
