@@ -1,6 +1,7 @@
 html {
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #1a1a1a;
   transition: ease 0.25s;
-  overflow-x: hidden;
+  overflow: hidden;
   
 }
 
