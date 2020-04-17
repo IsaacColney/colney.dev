@@ -12,13 +12,30 @@
     padding: 10px;
     .app-cards {
       height: 400px;
-      width: 50%;
+      width: 200px;
       border-radius: 2rem;
       background-color: rgb(50, 60, 90);
+      transition: ease 0.25s;
+      &:hover {
+          box-shadow:  0 0 15px 5px   rgb(50, 60, 100);
+          cursor: pointer;
+          background-color: rgb(50, 60, 100);
+      }
+      
       h2 {
         text-align: center;
         color: white;
       }
     }
   }
+}
+
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
