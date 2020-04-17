@@ -8,6 +8,7 @@ import {
   Switch,
 } from "react-router-dom";
 import NavigationBar from "./components/NavigationBar";
+import Apps from './pages/Apps'
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         <Switch>
           <Route path="/" exact>
             <Home />
+          </Route>
+          <Route path="/apps" exact>
+            <Apps />
           </Route>
           <Redirect to='/' />
         </Switch>
