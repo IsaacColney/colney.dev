@@ -1,0 +1,46 @@
+.appDetails-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  h1 {
+    font-weight: 200;
+    text-align: center;
+    color: white;
+  }
+  p {
+    margin: 40px 0;
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    color: white;
+    width: 50vw;
+  }
+  button {
+      align-self: center;
+      width: 150px;
+      height: 30px;
+      font-size: 15px;
+      color: whitesmoke;
+      font-weight: 100;
+      border-radius: 10px;
+      background-color: black;
+      border: 0;
+      transition: ease 0.5s;
+      a {
+          text-decoration: none;
+          color: white;
+      }
+      &:hover {
+          transform: scale(1.025);
+          filter: brightness(120%);
+          cursor: pointer;
+          background-color: white;
+          color: black;
+          a {
+              color: black;
+          }
+      }
+
+  }
+}

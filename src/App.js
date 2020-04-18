@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import NavigationBar from "./components/NavigationBar";
 import Apps from './pages/Apps'
+import AppDetails from "./pages/AppDetails";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route path="/apps" exact>
             <Apps />
+          </Route>
+          <Route path="/apps/covid-19" exact>
+            <AppDetails/>
           </Route>
           <Redirect to='/' />
         </Switch>

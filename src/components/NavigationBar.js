@@ -7,12 +7,10 @@ const NavigationBar = (props) => {
   const openDrawer = () => {
     document.getElementsByClassName("drawer")[0].style.width = "50vw";
     document.getElementsByClassName("drawerList")[0].style.display = "flex";
-    document.querySelector('.drawer ul').style.opacity = '1';
   };
   const closeDrawer = () => {
     document.getElementsByClassName("drawer")[0].style.width = "0";
     document.getElementsByClassName("drawerList")[0].style.display = "none";
-    document.querySelector('.drawer ul').style.opacity = '0';
   };
 
   return (
@@ -28,16 +26,32 @@ const NavigationBar = (props) => {
               onClick={closeDrawer}
               alt="close"
             />
-            <Link to="/" style={{ textDecoration: "none" }} onClick={closeDrawer}>
+            <Link
+              to="/"
+              style={{ textDecoration: "none" }}
+              onClick={closeDrawer}
+            >
               <li>Home</li>
             </Link>
-            <Link to="/apps" style={{ textDecoration: "none" }} onClick={closeDrawer}>
+            <Link
+              to="/apps"
+              style={{ textDecoration: "none" }}
+              onClick={closeDrawer}
+            >
               <li>Apps</li>
             </Link>
-            <Link to="/" style={{ textDecoration: "none" }} onClick={closeDrawer}>
+            <Link
+              to="/"
+              style={{ textDecoration: "none" }}
+              onClick={closeDrawer}
+            >
               <li>Contact</li>
             </Link>
-            <Link to="/" style={{ textDecoration: "none" }} onClick={closeDrawer}>
+            <Link
+              to="/"
+              style={{ textDecoration: "none" }}
+              onClick={closeDrawer}
+            >
               <li>About</li>
             </Link>
           </ul>
