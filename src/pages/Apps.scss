@@ -5,7 +5,7 @@
     font-weight: 200;
     text-align: center;
     color: white;
-    animation: opacityFade 0.5s ease ;
+    animation: opacityFade 0.5s ease;
   }
   .row {
     display: flex;
@@ -22,7 +22,7 @@
   opacity: 0;
   background-color: rgb(100, 40, 40);
   animation: opacityFade 1s ease;
-  animation-delay: 1s;
+  animation-delay: 0.75s;
   animation-fill-mode: forwards;
 }
 
@@ -30,7 +30,7 @@
   opacity: 0;
   background-color: rgb(40, 40, 70);
   animation: opacityFade 1s ease;
-  animation-delay: 0.5s;
+  animation-delay: 0.25s;
   animation-fill-mode: forwards;
 }
 

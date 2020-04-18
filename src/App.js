@@ -8,9 +8,9 @@ import {
   Switch,
 } from "react-router-dom";
 import NavigationBar from "./components/NavigationBar";
-import Apps from './pages/Apps'
+import Apps from "./pages/Apps";
 import AppDetails from "./pages/AppDetails";
-import AppData from './data/apps/covid-19.json'
+import AppData from "./data/apps/covid-19.json";
 import About from "./pages/About";
 
 function App() {
@@ -26,13 +26,17 @@ function App() {
             <Apps />
           </Route>
           <Route path="/about" exact>
-            <About/>
+            <About />
           </Route>
           <Route path="/apps/covid-19" exact>
-            <AppDetails title={AppData.title} description={AppData.description} downloadLink={AppData.downloadLink} />
+            <AppDetails
+              title={AppData.title}
+              description={AppData.description}
+              downloadLink={AppData.downloadLink}
+            />
           </Route>
-         
-          <Redirect to='/' />
+
+          <Redirect to="/" />
         </Switch>
       </main>
     </Router>
