@@ -10,6 +10,7 @@ import {
 import NavigationBar from "./components/NavigationBar";
 import Apps from './pages/Apps'
 import AppDetails from "./pages/AppDetails";
+import AppData from './data/apps/covid-19.json'
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
             <Apps />
           </Route>
           <Route path="/apps/covid-19" exact>
-            <AppDetails/>
+            <AppDetails title={AppData.title} description={AppData.description} downloadLink={AppData.downloadLink} />
           </Route>
           <Redirect to='/' />
         </Switch>
