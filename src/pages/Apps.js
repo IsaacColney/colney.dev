@@ -8,10 +8,10 @@ const Apps = () => {
     <div className="app-container">
       <h2>We got you with lots of usefull app</h2>
       <div className="row">
-        <AppCard title="Klass" className="klass" />
-        <Link to="/apps/covid-19" style={{textDecoration: 'none'}}>
+        <Link to="/apps/covid-19" style={{ textDecoration: "none" }}>
           <AppCard title="Covid-19" className="covid-19" />
         </Link>
+        <AppCard title="Klass" className="klass" />
       </div>
     </div>
   );

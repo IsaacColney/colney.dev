@@ -5,7 +5,7 @@
     font-weight: 200;
     text-align: center;
     color: white;
-    animation: opacityFade 1s;
+    animation: opacityFade 0.5s ease ;
   }
   .row {
     display: flex;
@@ -19,21 +19,29 @@
   }
 }
 .klass {
+  opacity: 0;
   background-color: rgb(100, 40, 40);
   animation: opacityFade 1s ease;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
 
 .covid-19 {
+  opacity: 0;
   background-color: rgb(40, 40, 70);
-  animation: opacityFade 3s ease;
+  animation: opacityFade 1s ease;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes opacityFade {
   from {
     opacity: 0;
+    transform: translateY(20px);
   }
   to {
     opacity: 1;
+    transform: translateY(0);
   }
 }
 
