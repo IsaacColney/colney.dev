@@ -8,10 +8,7 @@ const Apps = () => {
       <h2>We got you with lots of usefull app</h2>
       <div className="row">
         <AppCard title="Klass" className="klass" />
-        <AppCard
-          title="Covid-19"
-          className='covid-19'
-        />
+        <AppCard title="Covid-19" className="covid-19" />
       </div>
     </div>
   );
