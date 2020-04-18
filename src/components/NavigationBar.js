@@ -45,13 +45,6 @@ const NavigationBar = (props) => {
               style={{ textDecoration: "none" }}
               onClick={closeDrawer}
             >
-              <li>Contact</li>
-            </Link>
-            <Link
-              to="/"
-              style={{ textDecoration: "none" }}
-              onClick={closeDrawer}
-            >
               <li>About</li>
             </Link>
           </ul>
@@ -64,9 +57,6 @@ const NavigationBar = (props) => {
             </Link>
             <Link to="/apps" style={{ textDecoration: "none" }}>
               <li>Apps</li>
-            </Link>
-            <Link to="/" style={{ textDecoration: "none" }}>
-              <li>Contact</li>
             </Link>
             <Link to="/" style={{ textDecoration: "none" }}>
               <li>About</li>
