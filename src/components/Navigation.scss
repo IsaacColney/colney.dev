@@ -78,6 +78,8 @@
     width: 100%;
     padding: 0;
     margin: 5px 0 0 0 ;
+    opacity: 0;
+    transition: ease 1s;
     img {
       height: 30px;
       width: 30px;

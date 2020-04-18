@@ -1,0 +1,25 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  h2{
+    font-weight: 200;
+    text-align: center;
+    color: white;
+    animation: opacityFade 1s;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 10vw;
+  }
+}
+
+
+@keyframes opacityFade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

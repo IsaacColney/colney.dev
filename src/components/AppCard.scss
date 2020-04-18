@@ -1,0 +1,19 @@
+.appcard-container {
+    border-radius: 2rem;
+    height: 400px;
+    width: 200px;
+    margin: 0 2rem;
+    h2{
+        margin: 0;
+        padding: 20px 0 20px 0;
+        border-radius: 2rem 2rem 0 0 ;
+        background-color: rgba(0,0,0,0.5);
+    }
+    &:hover {
+        filter: brightness(140%);
+        h2{
+            filter: brightness(120%);
+        }
+        cursor: pointer;
+    }
+}
