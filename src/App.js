@@ -11,6 +11,7 @@ import NavigationBar from "./components/NavigationBar";
 import Apps from './pages/Apps'
 import AppDetails from "./pages/AppDetails";
 import AppData from './data/apps/covid-19.json'
+import About from "./pages/About";
 
 function App() {
   return (
@@ -24,9 +25,13 @@ function App() {
           <Route path="/apps" exact>
             <Apps />
           </Route>
+          <Route path="/about" exact>
+            <About/>
+          </Route>
           <Route path="/apps/covid-19" exact>
             <AppDetails title={AppData.title} description={AppData.description} downloadLink={AppData.downloadLink} />
           </Route>
+         
           <Redirect to='/' />
         </Switch>
       </main>
