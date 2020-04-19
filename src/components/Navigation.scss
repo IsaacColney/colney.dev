@@ -123,6 +123,10 @@
   align-self: center;
   margin: 0 auto;
   padding-right: 20px;
+  &:hover {
+    filter: brightness(130%);
+    cursor: auto;
+  }
 }
 
 @media (max-width: 480px) {

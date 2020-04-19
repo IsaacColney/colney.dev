@@ -13,6 +13,8 @@ import AppDetails from "./pages/AppDetails";
 import AppData from "./data/apps/covid-19.json";
 import About from "./pages/About";
 
+import CovidImg from './data/apps/covid-19-icon.png'
+
 function App() {
   return (
     <Router>
@@ -33,7 +35,7 @@ function App() {
               title={AppData.title}
               description={AppData.description}
               downloadLink={AppData.downloadLink}
-              img='https://static.toiimg.com/photo/msid-72368849/72368849.jpg?793304'
+              img={CovidImg}
             />
           </Route>
 

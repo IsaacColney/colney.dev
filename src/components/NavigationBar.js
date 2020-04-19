@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "./Navigation.scss";
+import Logo from "../assets/logo-sm.png";
 
 const NavigationBar = (props) => {
   const openDrawer = () => {
@@ -49,7 +50,9 @@ const NavigationBar = (props) => {
             </Link>
           </ul>
         </div>
-        <img className="logo" src="./assets/logo-sm.png" alt="logo" />
+        <Link to="/" className='logo'>
+          <img className="logo" src={Logo} alt="logo" />
+        </Link>
         <div className="link">
           <ul>
             <Link to="/" style={{ textDecoration: "none" }}>
