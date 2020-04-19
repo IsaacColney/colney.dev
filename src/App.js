@@ -36,6 +36,7 @@ function App() {
               description={AppData.description}
               downloadLink={AppData.downloadLink}
               img={CovidImg}
+              images = {AppData.images}
             />
           </Route>
 
