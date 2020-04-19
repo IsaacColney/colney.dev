@@ -13,6 +13,8 @@
     padding: 20px 10vw;
     align-items: center;
     align-self: center;
+    background-color: rgb(22, 22, 22);
+    border-radius: 20px;
     > * {
       margin: 0 20px;
     }
@@ -24,6 +26,7 @@
   animation: opacityFade 1s ease;
   animation-delay: 0.75s;
   animation-fill-mode: forwards;
+
 }
 
 .covid-19 {
