@@ -33,6 +33,7 @@ function App() {
               title={AppData.title}
               description={AppData.description}
               downloadLink={AppData.downloadLink}
+              img='https://static.toiimg.com/photo/msid-72368849/72368849.jpg?793304'
             />
           </Route>
 

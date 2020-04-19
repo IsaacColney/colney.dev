@@ -1,14 +1,36 @@
 .appDetails-container {
   display: flex;
   flex-direction: column;
-  align-self: center;
   align-items: center;
-  h1 {
-    font-weight: 200;
-    text-align: center;
-    color: white;
-    animation: fadeIn 0.75s ease;
+  .icon {
+    height: 10vw;
+    width: 10vw;
+    border-radius: 10vw;
+    background-color: white;
+    img {
+      display: block;
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+    }
   }
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #0f0f0f;
+    width: 100vw;
+    h1 {
+      padding: 0 2rem;
+      font-weight: 200;
+      text-align: center;
+      color: white;
+      animation: fadeIn 0.75s ease;
+    }
+  }
+
   p {
     margin: 40px 0;
     color: white;
@@ -20,31 +42,30 @@
     animation: fadeIn 1s ease forwards 0.25s;
   }
   button {
-      align-self: center;
-      width: 150px;
-      height: 30px;
-      font-size: 15px;
-      color: whitesmoke;
-      font-weight: 100;
-      border-radius: 10px;
-      background-color: black;
-      border: 0;
-      transition: ease 0.5s;
+    align-self: center;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    color: whitesmoke;
+    font-weight: 100;
+    border-radius: 10px;
+    background-color: black;
+    border: 0;
+    transition: ease 0.5s;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    &:hover {
+      transform: scale(1.025);
+      filter: brightness(120%);
+      cursor: pointer;
+      background-color: white;
+      color: black;
       a {
-          text-decoration: none;
-          color: white;
+        color: black;
       }
-      &:hover {
-          transform: scale(1.025);
-          filter: brightness(120%);
-          cursor: pointer;
-          background-color: white;
-          color: black;
-          a {
-              color: black;
-          }
-      }
-
+    }
   }
 }
 

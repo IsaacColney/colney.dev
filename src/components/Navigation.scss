@@ -42,6 +42,9 @@
         height: 100%;
         margin: 0 auto;
         padding: 0;
+        a {
+          align-self: center;
+        }
         li {
           display: flex;
           color: white;
@@ -77,8 +80,9 @@
     flex-direction: column;
     width: 100%;
     padding: 0;
-    margin: 5px 0 0 0 ;
+    margin: 5px 0 0 0;
     transition: ease 2s;
+
     img {
       height: 30px;
       width: 30px;
