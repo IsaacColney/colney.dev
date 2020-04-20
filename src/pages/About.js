@@ -10,7 +10,7 @@ const About = () => {
         <a href="https://www.instagram.com/colney.dev">Instagram</a>
 
         <div className="hspace-20px"></div>
-        <a href="www.instagram.com/colney.dev">Facebook</a>
+        <a href="https://www.facebook.com/colney.dev">Facebook</a>
       </div>
     </div>
   );
