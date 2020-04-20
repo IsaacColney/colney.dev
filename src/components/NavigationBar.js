@@ -19,7 +19,7 @@ const NavigationBar = (props) => {
   }
   return (
     <React.Fragment>
-      {showDrawer ?? <Backdrop onClick={closeDrawer}/> }
+      { showDrawer && <Backdrop onClick={closeDrawer}/> }
       <SideDrawer show={showDrawer} closeDrawer={closeDrawer} />
       <div className="nav-bar">
         <div className="content">

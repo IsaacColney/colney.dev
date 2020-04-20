@@ -22,6 +22,7 @@
       width: 30px;
       align-self: flex-end;
       cursor: pointer;
+      margin-right: 5px;
       margin-bottom: 50px;
       transition: ease 1s;
     }
@@ -51,16 +52,23 @@
 }
 
 .sideDrawer-transition-enter {
- left: -50vw;
+  left: -50vw;
 }
 .sideDrawer-transition-active {
-    left: 50vw;
-    transition: ease 0.25s;
+  left: 50vw;
+  transition: all ease 0.25s !important;
 }
 .sideDrawer-transition-exit {
-    left: 50vw;
+  left: 50vw;
 }
 .sideDrawer-transition-exit-active {
-    left: -50vw;
-    transition: ease 0.25s;
+  left: -50vw;
+  transition: all ease 0.25s;
+}
+
+
+@media (max-width: 400px) {
+    .drawer ul img {
+        margin-top: 10px;
+    }
 }
