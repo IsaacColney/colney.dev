@@ -1,12 +1,19 @@
-import React from 'react'
+import React from "react";
 
-import './About.scss';
+import "./About.scss";
 const About = () => {
-    return (
-        <div className='about-container'>
-            <h1>About us</h1>
-        </div>
-    )
-}
+  return (
+    <div className="about-container">
+      <h1>About us</h1>
+      <h3>Join us on:</h3>
+      <div className="about-contact">
+        <a href="https://www.instagram.com/colney.dev">Instagram</a>
 
-export default About
+        <div className="hspace-20px"></div>
+        <a href="www.instagram.com/colney.dev">Facebook</a>
+      </div>
+    </div>
+  );
+};
+
+export default About;

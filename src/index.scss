@@ -25,3 +25,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.hspace-20px {
+  height: 0;
+  width: 20px;
+}
+
+.vspace-20px {
+  height: 20px;
+  width: 0px;
+}
