@@ -13,7 +13,8 @@ import AppDetails from "./pages/AppDetails";
 import AppData from "./data/apps/covid-19.json";
 import About from "./pages/About";
 
-import CovidImg from './data/apps/covid-19-icon.png'
+import CovidImg from "./data/apps/covid-19-icon.png";
+
 
 function App() {
   return (
@@ -36,7 +37,7 @@ function App() {
               description={AppData.description}
               downloadLink={AppData.downloadLink}
               img={CovidImg}
-              images = {AppData.images}
+              images={AppData.images}
             />
           </Route>
 
