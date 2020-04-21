@@ -8,7 +8,6 @@ const About = () => {
       <h3>Join us on:</h3>
       <div className="about-contact">
         <a href="https://www.instagram.com/colney.dev">Instagram</a>
-
         <div className="hspace-20px"></div>
         <a href="https://www.facebook.com/colney.dev">Facebook</a>
       </div>
