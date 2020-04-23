@@ -28,9 +28,6 @@ const SideDrawer = (props) => {
         >
           <li>Apps</li>
         </Link>
-        <Link to="/mbbs/assignment" style={{ textDecoration: "none" }}  onClick={props.closeDrawer} >
-                <li>Assignment</li>
-              </Link>
         <Link
           to="/about"
           style={{ textDecoration: "none" }}

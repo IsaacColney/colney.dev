@@ -37,9 +37,6 @@ const NavigationBar = (props) => {
               <Link to="/apps" style={{ textDecoration: "none" }}>
                 <li>Apps</li>
               </Link>
-              <Link to="/mbbs/assignment" style={{ textDecoration: "none" }}>
-                <li>Assignment</li>
-              </Link>
               <Link to="/about" style={{ textDecoration: "none" }}>
                 <li>About</li>
               </Link>

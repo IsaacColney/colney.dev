@@ -14,7 +14,6 @@ import AppData from "./data/apps/covid-19.json";
 import About from "./pages/About";
 
 import CovidImg from "./data/apps/covid-19-icon.png";
-import Assignment from "./pages/Assignment";
 
 function App() {
   return (
@@ -39,9 +38,6 @@ function App() {
               img={CovidImg}
               images={AppData.images}
             />
-          </Route>
-          <Route path="/mbbs/assignment" exact>
-            <Assignment />
           </Route>
           <Redirect to="/" />
         </Switch>

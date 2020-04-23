@@ -1,6 +1,8 @@
 import React from "react";
+import Grid from '@material-ui/core/Grid';
 
 import "./AppDetails.scss";
+
 const AppDetails = props => {
   return (
     <div className="appDetails-container">
@@ -8,6 +10,9 @@ const AppDetails = props => {
       <div className='icon'><img src={props.img} alt='app icon'/></div>
       <h1>{props.title}</h1>
       </div>
+      <Grid item xs={12} spacing={3} justify="center" alignItems="center" container>
+        {props.images.map(image => <img src={image} alt=''/> )}
+      </Grid>
       <p>
        {props.description}
       </p>
