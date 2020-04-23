@@ -7,6 +7,7 @@ import SideDrawer from "./SideDrawer";
 import Backdrop from "./Backdrop";
 
 const NavigationBar = (props) => {
+  console.log('1');   
   const [showDrawer, setDrawer] = useState(false);
    const openDrawer = () => {
      setDrawer(true);
@@ -36,6 +37,9 @@ const NavigationBar = (props) => {
               </Link>
               <Link to="/apps" style={{ textDecoration: "none" }}>
                 <li>Apps</li>
+              </Link>
+              <Link to="/mbbs/assignment" style={{ textDecoration: "none" }}>
+                <li>Assignment</li>
               </Link>
               <Link to="/about" style={{ textDecoration: "none" }}>
                 <li>About</li>

@@ -28,10 +28,13 @@
   animation: opacityFade 1s ease;
   animation-delay: 0.75s;
   animation-fill-mode: forwards;
- 
+  height: 400px;
+  width: 200px;
 }
 
 .covid-19 {
+  height: 400px;
+  width: 200px;
   opacity: 0;
   background-color: rgb(40, 40, 70);
   animation: opacityFade 1s ease;
