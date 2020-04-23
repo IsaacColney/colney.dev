@@ -7,7 +7,7 @@ import SideDrawer from "./SideDrawer";
 import Backdrop from "./Backdrop";
 
 const NavigationBar = (props) => {
-  console.log('2');   
+  console.log('3');   
   const [showDrawer, setDrawer] = useState(false);
    const openDrawer = () => {
      setDrawer(true);
