@@ -3,7 +3,7 @@ import React from "react";
 import "./About.scss";
 
 const About = () => {
-  var counter = '3';
+  var counter = '4';
   return (
     <div className="about-container">
       <h1>About us</h1>
