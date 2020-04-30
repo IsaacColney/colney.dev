@@ -5,6 +5,14 @@
   margin: 0 10px;
   transition: ease-in 0.1s;
   height: 65vh;
+  h3 {
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    margin: auto 0;
+    font-weight: 100;
+    animation: appText ease 3s forwards;
+  }
  
   h2 {
     margin: 0;
@@ -49,5 +57,14 @@
   .appcard-container {
     height: 60vh;
 
+  }
+}
+
+@keyframes appText {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

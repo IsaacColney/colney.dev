@@ -1,6 +1,0 @@
-{
-    "title" : "Covid-19",
-    "description" : ["An app that inform you with the current status of covid-19 in India"],
-    "images" : ["../assets/apps/covid19-1.jpg","../assets/apps/covid19-2.jpg","/assets/apps/covid19-3.jpg"],
-    "downloadLink" : "https://firebasestorage.googleapis.com/v0/b/covid19-825cf.appspot.com/o/covid-19.apk?alt=media&token=42478d8e-6989-4091-ab03-90e5f2b79a7f"
-}

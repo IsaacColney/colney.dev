@@ -4,6 +4,7 @@ import Grid from "@material-ui/core/Grid";
 
 import "./Apps.scss";
 import AppCard from "../components/AppCard";
+import AppList from "../data/apps/appList.json";
 
 const Apps = () => {
   return (
@@ -17,16 +18,16 @@ const Apps = () => {
         justify="center"
         alignItems="center"
         spacing={3}
-        style={{margin: 0}}
+        style={{ margin: 0 }}
       >
         <Link to="/apps/covid-19" style={{ textDecoration: "none" }}>
           <AppCard
             title="Covid-19"
             className="covid-19"
-            appImg='../assets/covid-19-icon.png'
+            appImg="../assets/covid-19-icon.png"
           />
         </Link>
-        <AppCard title="Klass" className="klass" />
+        <AppCard title="Klass" className="klass" appText='Coming Soon'/>
       </Grid>
     </div>
   );

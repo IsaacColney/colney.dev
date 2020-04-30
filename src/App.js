@@ -10,7 +10,7 @@ import {
 import NavigationBar from "./components/NavigationBar";
 import Apps from "./pages/Apps";
 import AppDetails from "./pages/AppDetails";
-import AppData from "./data/apps/covid-19.json";
+import AppList from "./data/apps/appList.json";
 import About from "./pages/About";
 import Footer from './components/Footer';
 
@@ -33,11 +33,11 @@ function App() {
           </Route>
           <Route path="/apps/covid-19" exact>
             <AppDetails
-              title={AppData.title}
-              description={AppData.description}
-              downloadLink={AppData.downloadLink}
+              title={AppList['app'][0].title}
+              description={AppList['app'][0].description}
+              downloadLink={AppList['app'][0].downloadLink}
               img={CovidImg}
-              images={AppData.images}
+              images={AppList['app'][0].images}
             />
           </Route>
           <Redirect to="/" />
