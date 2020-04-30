@@ -12,7 +12,6 @@
     padding: 20px 0;
     background-color: #0f0f0f;
     width: 100vw;
-    margin-bottom: 20px;
     .icon {
       margin: 0;
       padding: 0;
@@ -74,12 +73,26 @@
     }
   }
 }
-
-.app-image {
-  border-radius: 2vh;
-  height: 40vh;
-  // padding: 2rem;
+.app-screenshot {
+  display: flex;
+  flex-direction: row;
+ 
+  .app-image {
+    border-radius: 2vh;
+    height: 40vh;
+    margin: 2vh;
+    // padding: 2rem;
+  }
 }
+
+.menu-wrapper--inner {
+  overflow-x: hidden;
+  transition: transform 0.4s ease 0s !important;
+  width: 1000px !important; 
+  text-align: left;
+}
+
+
 
 @keyframes fadeIn {
   from {
@@ -91,3 +104,4 @@
     transform: scale(1);
   }
 }
+

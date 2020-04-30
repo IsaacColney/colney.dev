@@ -12,6 +12,7 @@ import Apps from "./pages/Apps";
 import AppDetails from "./pages/AppDetails";
 import AppData from "./data/apps/covid-19.json";
 import About from "./pages/About";
+import Footer from './components/Footer';
 
 import CovidImg from "./data/apps/covid-19-icon.png";
 
@@ -42,6 +43,9 @@ function App() {
           <Redirect to="/" />
         </Switch>
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </Router>
   );
 }

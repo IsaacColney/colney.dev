@@ -4,7 +4,8 @@
   border-radius: 20px;
   margin: 0 10px;
   transition: ease-in 0.1s;
-  height: 70vh;
+  height: 65vh;
+ 
   h2 {
     margin: 0;
     padding: 20px 0 20px 0;
@@ -47,5 +48,6 @@
 @media (size: max-width(450px)) {
   .appcard-container {
     height: 60vh;
+
   }
 }
