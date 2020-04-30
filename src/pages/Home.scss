@@ -8,14 +8,23 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  
+  h1 { 
+    animation: fade ease 0.5s;
+    color: white;
+    font-size: 3rem;
+    font-weight: 100;
+  }  
 }
+
+
 
 @keyframes fade {
   from {
     opacity: 0;
+    transform: translateY(20px);
   }
   to {
     opacity: 1;
+    transform: translateY(0);
   }
 }

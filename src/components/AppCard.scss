@@ -1,12 +1,16 @@
 .appcard-container {
+  display: flex;
+  flex-direction: column;
   border-radius: 20px;
   margin: 0 10px;
   transition: ease-in 0.1s;
+  height: 70vh;
   h2 {
     margin: 0;
     padding: 20px 0 20px 0;
     border-radius: 20px 20px 0 0;
     background-color: rgba(0, 0, 0, 0.25);
+    font-size: 2rem;
   }
   &:hover {
     transform: scale(1.01) !important;
@@ -15,5 +19,33 @@
       filter: brightness(120%);
     }
     cursor: pointer;
+    img {
+      transform: rotateY(0.5turn);
+      opacity: 0;
+    }
+    p {
+      opacity: 1;
+    }
+  }
+  img {
+    justify-self: center;
+    align-self: center;
+    vertical-align: center;
+    transition: ease 0.25s;
+   
+  }
+  p {
+    text-align: center;
+    color: white;
+    margin: 0 2px 0 2px;
+    padding:0 ;
+    opacity: 0;
+    transition: ease 0.25s;
+  }
+}
+
+@media (size: max-width(450px)) {
+  .appcard-container {
+    height: 60vh;
   }
 }

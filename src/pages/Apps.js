@@ -8,7 +8,7 @@ import AppCard from "../components/AppCard";
 const Apps = () => {
   return (
     <div className="app-container">
-      <h2>We got you with lots of usefull app</h2>
+      <h2>We got you with lots of amazing apps</h2>
 
       <Grid
         container
@@ -17,15 +17,13 @@ const Apps = () => {
         justify="center"
         alignItems="center"
         spacing={3}
-        
+        style={{margin: 0}}
       >
         <Link to="/apps/covid-19" style={{ textDecoration: "none" }}>
           <AppCard
             title="Covid-19"
             className="covid-19"
-            style={{
-              backgroundImage: `url(required("./assets/apps/covid19-1.jpg"))`,
-            }}
+            appImg='../assets/covid-19-icon.png'
           />
         </Link>
         <AppCard title="Klass" className="klass" />
