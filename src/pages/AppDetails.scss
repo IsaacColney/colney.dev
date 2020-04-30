@@ -12,6 +12,7 @@
     padding: 20px 0;
     background-color: #0f0f0f;
     width: 100vw;
+    margin-bottom: 20px;
     .icon {
       margin: 0;
       padding: 0;
@@ -72,6 +73,12 @@
       }
     }
   }
+}
+
+.app-image {
+  border-radius: 2vh;
+  height: 40vh;
+  // padding: 2rem;
 }
 
 @keyframes fadeIn {
