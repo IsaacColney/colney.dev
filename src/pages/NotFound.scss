@@ -1,6 +1,15 @@
 .notfound-container {
+    height: 93vh;
     display: flex;
+    flex-direction: column;
     justify-items: center;
     vertical-align: middle;
     text-align: center;
+    align-items: center;
+    h1 {
+        text-align: center;
+        color: white;
+        font-size: 4rem;
+        font-weight : 100;
+    }
 }

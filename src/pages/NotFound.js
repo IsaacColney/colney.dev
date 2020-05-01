@@ -1,5 +1,6 @@
 import React from 'react'
 
+import './NotFound.scss';
 const NotFound = () => {
     return (
         <div className="notfound-container"> 
@@ -8,4 +9,4 @@ const NotFound = () => {
     )
 }
 
-export default 404
+export default NotFound

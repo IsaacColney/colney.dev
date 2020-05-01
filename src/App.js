@@ -41,9 +41,10 @@ function App() {
               images={AppList['app'][0].images}
             />
           </Route>
-          <Redirect to="/404notfound">
-            <NotFound/>
-          </Redirect>
+          <Route path="/404_Not_Found" exact>
+            <NotFound />
+          </Route>
+          <Redirect from='/404' to="/404_Not_Found" />
         </Switch>
       </main>
       <footer>
