@@ -5,8 +5,10 @@ import Grid from "@material-ui/core/Grid";
 import "./Apps.scss";
 import AppCard from "../components/AppCard";
 import AppList from "../data/apps/appList.json";
+import AppData from "../data/apps/appList.json";
 
 const Apps = () => {
+  var appList = AppData.app;
   return (
     <div className="app-container">
       <h2>We got you with lots of amazing apps</h2>
@@ -20,14 +22,18 @@ const Apps = () => {
         spacing={3}
         style={{ margin: 0 }}
       >
-        <Link to="/apps/covid-19" style={{ textDecoration: "none" }}>
-          <AppCard
-            title="Covid-19"
-            className="covid-19"
-            appImg="../assets/covid-19-icon.png"
-          />
-        </Link>
-        <AppCard title="Klass" className="klass" appText='Coming Soon'/>
+        {appList.map((app, index) => {
+          return (
+            <Link to={app["to"]} style={{ textDecoration: "none" }}>
+              <AppCard
+                title={app["title"]}
+                className={`app-card app-card${index}`}
+                appImg={app["appImg"]}
+                style={{backgroundColor : app['styleColor']}}
+              />
+            </Link>
+          );
+        })}
       </Grid>
     </div>
   );

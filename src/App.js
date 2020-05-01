@@ -15,6 +15,7 @@ import About from "./pages/About";
 import Footer from './components/Footer';
 
 import CovidImg from "./data/apps/covid-19-icon.png";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -40,7 +41,9 @@ function App() {
               images={AppList['app'][0].images}
             />
           </Route>
-          <Redirect to="/" />
+          <Redirect to="/404notfound">
+            <NotFound/>
+          </Redirect>
         </Switch>
       </main>
       <footer>

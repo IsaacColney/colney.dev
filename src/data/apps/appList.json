@@ -3,14 +3,19 @@
         {
             "title" : "Covid-19",
             "description" : ["An app that gets you updated with covid-19 status in India."],
+            "appImg" : "../assets/covid-19-icon.png",
+            "to" : "/apps/covid-19",
             "images" : ["../assets/apps/covid19-1.jpg","../assets/apps/covid19-2.jpg","/assets/apps/covid19-3.jpg"],
-            "downloadLink" : "https://firebasestorage.googleapis.com/v0/b/covid19-825cf.appspot.com/o/covid-19.apk?alt=media&token=42478d8e-6989-4091-ab03-90e5f2b79a7f"
+            "downloadLink" : "https://firebasestorage.googleapis.com/v0/b/covid19-825cf.appspot.com/o/covid-19.apk?alt=media&token=42478d8e-6989-4091-ab03-90e5f2b79a7f",
+            "styleColor" : " rgb(100, 40, 40) "
         },
         {
             "title" : "Klass",
             "description" : ["Coming Soon!"],
+            "to" : "",
             "images" : [],
-            "downloadLink" : ""
+            "downloadLink" : "",
+            "styleColor" : "  rgb(40, 40, 70) "
         }
     ]
 }
