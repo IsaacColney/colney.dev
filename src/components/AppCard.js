@@ -1,7 +1,9 @@
 import React from "react";
 
 import "./AppCard.scss";
-card='2';
+var card='2';
+var url = '';
+
 const AppCard = (props) => {
   return (
     <div className={`appcard-container ${props.className}`} style={props.style}>
