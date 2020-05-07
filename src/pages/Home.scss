@@ -4,24 +4,33 @@
   text-align: center;
   justify-content: center;
   align-content: center;
-  height: 90vh;
+  height: 100%;
   margin: 0;
   padding: 0;
-  background-image: url("../assets/logo.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  h1 { 
-    vertical-align: middle;
-    animation: fade ease 0.5s;
+
+  .home-welcome {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
     margin: 0;
-    color: white;
-    font-size: 3rem;
-    font-weight: 100;
-  }  
+    padding: 0;
+    height: 93vh;
+    background-image: url("../assets/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    h1 {
+      vertical-align: middle;
+      animation: fade ease 0.75s;
+      margin: 0;
+      color: white;
+      font-size: 3rem;
+      font-weight: 100;
+    }
+  }
 }
-
-
 
 @keyframes fade {
   from {

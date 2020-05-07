@@ -30,6 +30,7 @@ const Apps = () => {
                 className={`app-card app-card${index}`}
                 appImg={app["appImg"]}
                 style={{backgroundColor : app['styleColor']}}
+                description={app['description']}
               />
             </Link>
           );
