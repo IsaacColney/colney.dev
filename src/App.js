@@ -47,9 +47,6 @@ function App() {
           <Redirect from='/404' to="/404_Not_Found" />
         </Switch>
       </main>
-      <footer>
-        <Footer />
-      </footer>
     </Router>
   );
 }

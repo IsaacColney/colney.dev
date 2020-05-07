@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ReactDOM from "react-dom";
 import { CSSTransition } from "react-transition-group";
+import ImgLogo from '../assets/logo-sm.png';
 
 import "./SideDrawer.scss";
 
@@ -9,11 +10,14 @@ const SideDrawer = (props) => {
   const html = (
     <div className="drawer">
       <ul className="drawerList">
+    
+          
         <img
           src="./assets/icons/close.png"
           onClick={props.closeDrawer}
-          alt="close"
-        />
+          alt="close"/>
+      
+        
         <Link
           to="/"
           style={{ textDecoration: "none" }}
