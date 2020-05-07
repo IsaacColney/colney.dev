@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import ReactDOM from "react-dom";
 import { CSSTransition } from "react-transition-group";
 import ImgLogo from '../assets/logo-sm.png';
+import Close from "../assets/icon/close.png";
 
 import "./SideDrawer.scss";
 
@@ -13,7 +14,7 @@ const SideDrawer = (props) => {
     
           
         <img
-          src="./assets/icons/close.png"
+          src={Close}
           onClick={props.closeDrawer}
           alt="close"/>
       

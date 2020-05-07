@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import "./Navigation.scss";
 import Logo from "../assets/logo-sm.png";
+import Menu from "../assets/icon/menu.png";
 import SideDrawer from "./SideDrawer";
 import Backdrop from "./Backdrop";
 
@@ -24,7 +25,7 @@ const NavigationBar = (props) => {
       <div className="nav-bar">
         <div className="content">
           <div className="nav-btn" onClick={openDrawer}>
-            <img src="./assets/icons/menu.png" alt="icons-menu" />
+            <img src={Menu} alt="icons-menu" />
           </div>
           <Link to="/" className="logo">
             <img className="logo" src={Logo} alt="logo" />
