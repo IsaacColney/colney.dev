@@ -12,7 +12,7 @@ import Apps from "./pages/Apps";
 import AppDetails from "./pages/AppDetails";
 import AppList from "./data/apps/appList.json";
 import About from "./pages/About";
-import Footer from './components/Footer';
+import Iyam from "./pages/Iyam";
 
 import CovidImg from "./data/apps/covid-19-icon.png";
 import NotFound from "./pages/NotFound";
@@ -32,19 +32,22 @@ function App() {
           <Route path="/about" exact>
             <About />
           </Route>
+          <Route path='/Iyam' exact>
+            <Iyam />
+          </Route>
           <Route path="/apps/covid-19" exact>
             <AppDetails
-              title={AppList['app'][0].title}
-              description={AppList['app'][0].description}
-              downloadLink={AppList['app'][0].downloadLink}
+              title={AppList["app"][0].title}
+              description={AppList["app"][0].description}
+              downloadLink={AppList["app"][0].downloadLink}
               img={CovidImg}
-              images={AppList['app'][0].images}
+              images={AppList["app"][0].images}
             />
           </Route>
           <Route path="/404_Not_Found" exact>
             <NotFound />
           </Route>
-          <Redirect from='/404' to="/404_Not_Found" />
+          <Redirect from="/404" to="/404_Not_Found" />
         </Switch>
       </main>
     </Router>

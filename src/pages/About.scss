@@ -27,6 +27,12 @@
     align-items: center;
     flex-direction: row;
     animation: fadeUp 1s ease;
+    a:nth-child(1) {
+      animation: fadeUp 1s ease;
+    }
+    a:nth-child(2) {
+      animation: fadeUp 1s ease 1s;
+    }
     a {
       font-size: 0.9rem;
       text-decoration: none;
@@ -37,7 +43,6 @@
       background-color: black;
       border-radius: 10px;
       padding: 10px;
-      transition: ease 0.25s;
       &:hover {
         transform: scale(1.025);
         color: black;
