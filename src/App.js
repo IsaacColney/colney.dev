@@ -32,7 +32,7 @@ function App() {
           <Route path="/about" exact>
             <About />
           </Route>
-          <Route path='/Iyam' exact>
+          <Route path=`/Iyam/${hello}` exact>
             <Iyam />
           </Route>
           <Route path="/apps/covid-19" exact>
