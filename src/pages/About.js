@@ -10,9 +10,9 @@ const About = () => {
       <p>We are a team developers</p>
       <h3>Join us on:</h3>
       <div className="about-contact">
-        <a href="https://www.instagram.com/colney.dev" target="_blank"><img src={Instagram} alt='instagram'/> </a>
+        <a href="https://www.instagram.com/colney.dev"  ><img src={Instagram} alt='instagram'/> </a>
         <div className="hspace-20px"></div>
-        <a href="https://www.facebook.com/Colneydev-113107110338054" target="_blank"><img src={Facebook} alt='facebook'/></a>
+        <a href="https://www.facebook.com/Colneydev-113107110338054" ><img src={Facebook} alt='facebook'/></a>
       </div>
     </div>
   );

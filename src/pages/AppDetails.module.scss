@@ -1,4 +1,4 @@
-.appDetails-container {
+.appDetailsContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,15 +73,29 @@
     }
   }
 }
-.app-screenshot {
+.appScreenshot {
   display: flex;
   flex-direction: row;
- 
-  .app-image {
+  height: 45vh;
+  width: 100vw;
+  overflow: hidden;
+  .appImage {
     border-radius: 2vh;
     height: 40vh;
     margin: 2vh;
+    animation: fadeUp 1s ease ;
     // padding: 2rem;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    transform: translateY(20);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
 }
 
