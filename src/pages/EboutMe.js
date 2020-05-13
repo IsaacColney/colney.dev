@@ -1,6 +1,6 @@
 import React from "react";
 
-import Style from "./Iyam.module.scss";
+import Style from "./EboutMe.module.scss";
 
 const Portfolio = (props) => {
   return (
