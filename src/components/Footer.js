@@ -4,7 +4,7 @@ import Style from  './Footer.module.scss';
 const Footer = () => {
     return (
         <div className={Style.footerContainer}>
-            <p>© colney.dev </p>
+            <p>© colney.dev 2020</p>
         </div>
     )
 }

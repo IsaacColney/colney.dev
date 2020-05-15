@@ -1,4 +1,4 @@
-.container {
+.homeContainer {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
 
-  .home-welcome {
+  .homeWelcome {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -32,7 +32,7 @@
       font-weight: 100;
     }
   }
-  .home-apps {
+  .homeApps {
     display: flex;
     flex-direction: column;
     height: 100vh;

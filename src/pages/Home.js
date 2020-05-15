@@ -1,15 +1,15 @@
 import React from "react";
 import Fade from 'react-reveal/Fade';
 
-import "./Home.scss";
+import Style from "./Home.module.scss";
 
 const Home = () => {
   return (
-    <div className="container">
-      <div className='home-welcome'>
+    <div className={Style.homeContainer}>
+      <div className={Style.homeWelcome}>
     <h1>Welcome</h1>
     </div>
-    <div className='home-apps'>
+    <div className={Style.homeApps}>
       <Fade left delay={250}>
         <h2>Hello</h2>
       </Fade>
