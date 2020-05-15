@@ -1,5 +1,13 @@
 .footerContainer  {
-    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
     width: 100%;
-    background-color: white;
+    background-color: black;
+    flex-direction: column-reverse;
+    p {
+        font-size: 0.75rem;
+        color: white;
+        text-align: center;
+    }
 }
