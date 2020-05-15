@@ -32,7 +32,7 @@ function App() {
           <Route path="/about" exact>
             <About />
           </Route>
-          <Route path='/e-boutMe/:userName' exact >
+          <Route path='/e-boutMe' exact >
             <EboutMe />
           </Route>
           <Route path="/apps/covid-19" exact>
