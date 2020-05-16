@@ -3,10 +3,10 @@ import Style from './BoxCard.module.scss';
 
 const BoxCard = props => {
     return (
-        <div className={`${Style.boxCard} ${props.class}`}>
+        <a href={props.url}><div className={`${Style.boxCard} ${props.class}`} >
             {(props.img != null) ?  <img src={props.img} alt='logo'/> : <div className={Style.imgContainer}></div>}
             <h3>{props.title}</h3>
-        </div>
+        </div></a>
     )
 }
 
