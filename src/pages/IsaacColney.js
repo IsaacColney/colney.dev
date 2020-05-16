@@ -20,8 +20,8 @@ const IsaacColney = () => {
                 <Fade left delay={500}><BoxCard img={SteamImg} title='Gaming(Steam)' className={Style.gaming}  url='https://steamcommunity.com/id/y3nlox'/></Fade>
                 <Fade left delay={1000}><BoxCard img={GithubImg} title='Github'className={Style.github}  url='https://github.com/isaaccolney' /></Fade>
                 <Fade left delay={1500}><BoxCard img={YoutubeImg} title='Youtube' className={Style.youtube} url='https://www.youtube.com/channel/UCaaB61CwsQ7VH8vS3ZYI6mA' /></Fade>
-                <Fade left delay={2000}><BoxCard img={InstagramImg} title='Instagram' className={Style.youtube} url='https://instagram.com/isaac_colney' /></Fade>
-                <Fade left delay={2500}><BoxCard img={FacebookImg} title='Facebook' className={Style.youtube} url='https://facebook.com/isaac.colney173'/></Fade>
+                <Fade left delay={2000}><BoxCard img={InstagramImg} title='Instagram' className={Style.instagram} url='https://instagram.com/isaac_colney' /></Fade>
+                <Fade left delay={2500}><BoxCard img={FacebookImg} title='Facebook' className={Style.facebook} url='https://facebook.com/isaac.colney173'/></Fade>
             </div>
         </div>
     )

@@ -1,30 +1,52 @@
 .container {
-    width: 100%;
-    height: 100%;
-    .header {
-        display: flex;
-        flex-direction: column;
-        background-color: black;
-        height: 25vh;
-        align-items: center;
-        vertical-align: middle;
-        justify-content: center;
-        img {
-            border-radius: 100px;
-            height: 100px;
-            width: 100px;
-            margin: 0 auto;
-        }
-        h2{
-            color: white;
-            font-weight: 100;
-            margin: 0;
-        }
+  width: 100%;
+  height: 100%;
+  .header {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 25vh;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    img {
+      border-radius: 100px;
+      height: 100px;
+      width: 100px;
+      margin: 0 auto;
     }
-    .body1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 83vh;
+    h2 {
+      color: white;
+      font-weight: 100;
+      margin: 0;
     }
+  }
+
+  .body1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 83vh;
+    padding-top: 20px;
+  }
+}
+
+.gaming {
+  background-color: #434c61 !important;
+}
+
+.github {
+  background-color: #0366d6 !important;
+}
+
+.youtube {
+  background-color: #5e1614 !important;
+}
+
+.facebook {
+  background-color: #1f2f50 !important;
+}
+
+.instagram {
+    background-color: #66183b !important;
 }
