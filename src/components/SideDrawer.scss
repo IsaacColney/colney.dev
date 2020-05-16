@@ -58,7 +58,7 @@
   transition: transform ease 0.15s;
 }
 .sideDrawer-transition-exit {
-  transform: translateX(0);
+  transform: translateX(0vw);
 }
 .sideDrawer-transition-exit-active {
   transform: translateX(-50vw);

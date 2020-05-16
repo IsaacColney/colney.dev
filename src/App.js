@@ -16,6 +16,7 @@ import EboutMe from "./pages/EboutMe";
 import Footer from './components/Footer';
 import CovidImg from "./data/apps/covid-19-icon.png";
 import NotFound from "./pages/NotFound";
+import IsaacColney from "./pages/IsaacColney";
 
 function App() {
   return (
@@ -47,7 +48,11 @@ function App() {
           <Route path="/404_Not_Found" exact>
             <NotFound />
           </Route>
+          <Route path="/isaac_colney" exact>
+            <IsaacColney/>
+          </Route>
           <Redirect from="/404" to="/404_Not_Found" />
+
         </Switch>
       </main>
       <Footer/>
