@@ -51,18 +51,18 @@
 }
 
 .sideDrawer-transition-enter {
-  left: -50vw;
+  transform: translateX(-50vw);
 }
 .sideDrawer-transition-active {
-  left: 50vw;
-  transition: all ease 0.25s !important;
+  transform: translateX(0vw);
+  transition: transform ease 0.15s;
 }
 .sideDrawer-transition-exit {
-  left: 50vw;
+  transform: translateX(0);
 }
 .sideDrawer-transition-exit-active {
-  left: -50vw;
-  transition: all ease 0.25s;
+  transform: translateX(-50vw);
+  transition: transform ease 0.15s;
 }
 
 
