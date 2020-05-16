@@ -11,7 +11,10 @@ const Home = () => {
     </div>
     <div className={Style.homeApps}>
       <Fade left delay={250}>
-        <h2>Hello</h2>
+        <h2>Hello There</h2>
+      </Fade>
+      <Fade right delay={400}>
+        <h1>The website is in maintenance</h1>
       </Fade>
     </div>
     </div>

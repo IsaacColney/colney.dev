@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="about-container">
       <h1>About us</h1>
-      <p>We are a team developers</p>
+      <p>We are a team developers (a ni deuh tawp hrih)</p>
       <h3>Join us on:</h3>
       <div className="about-contact">
         <a href="https://www.instagram.com/colney.dev"  ><img src={Instagram} alt='instagram'/> </a>

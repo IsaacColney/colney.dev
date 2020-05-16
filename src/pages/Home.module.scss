@@ -31,6 +31,7 @@
       font-size: 3rem;
       font-weight: 100;
     }
+
   }
   .homeApps {
     display: flex;
@@ -42,6 +43,11 @@
     vertical-align: middle;
     h2 {
       color: white;
+      font-weight: 100;
+    }
+    h1{ 
+      color: white;
+      font-weight: 100;
     }
   }
 }
