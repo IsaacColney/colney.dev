@@ -3,7 +3,11 @@ import ProfileImg from '../assets/isaacColney/dp.jpg';
 import Style from './IsaacColney.module.scss';
 import BoxCard from '../components/BoxCard';
 import Fade from 'react-reveal/Fade';
-
+import SteamImg from '../assets/isaacColney/linkLogo/steam.png';
+import GithubImg from '../assets/isaacColney/linkLogo/github.png';
+import YoutubeImg from '../assets/isaacColney/linkLogo/youtube.png';
+import InstagramImg from '../assets/isaacColney/linkLogo/instagram.png';
+import FacebookImg from '../assets/isaacColney/linkLogo/facebook.png';
 
 const IsaacColney = () => {
     return (
@@ -13,11 +17,11 @@ const IsaacColney = () => {
                 <h2>Isaac Colney</h2>
             </div>
             <div className={Style.body1}>
-                <Fade right delay={100}><BoxCard title='Gaming' className={Style.gaming}/></Fade>
-                <Fade left delay={200}><BoxCard title='Github'className={Style.github}/></Fade>
-                <Fade right delay={300}><BoxCard title='Youtube' className={Style.youtube}/></Fade>
-                <Fade left delay={400}><BoxCard title='Instagram' className={Style.youtube}/></Fade>
-                <Fade right delay={500}><BoxCard title='Facebook' className={Style.youtube}/></Fade>
+                <Fade left delay={500}><BoxCard img={SteamImg} title='Gaming(Steam)' className={Style.gaming} /></Fade>
+                <Fade left delay={1000}><BoxCard img={GithubImg} title='Github'className={Style.github}/></Fade>
+                <Fade left delay={1500}><BoxCard img={YoutubeImg} title='Youtube' className={Style.youtube}/></Fade>
+                <Fade left delay={2000}><BoxCard img={InstagramImg} title='Instagram' className={Style.youtube}/></Fade>
+                <Fade left delay={2500}><BoxCard img={FacebookImg} title='Facebook' className={Style.youtube}/></Fade>
             </div>
         </div>
     )

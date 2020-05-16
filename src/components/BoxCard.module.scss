@@ -18,11 +18,13 @@
     height: calc(90vw / 9);
     width: calc(90vw / 9);
     background-color: white;
-    img {
-      height: calc(90vw / 9);
-      width: calc(90vw / 9);
-      border-radius: 10px;
-    }
+
+  }
+  img {
+    height: calc(90vw / 9) !important;
+    width: calc(90vw / 9) !important;
+    border-radius: 10px;
+    margin: 0 10px ;
   }
   h3 {
     margin: 0 10px;
