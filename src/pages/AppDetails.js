@@ -1,8 +1,7 @@
 import React from "react";
 
 import Style from"./AppDetails.module.scss";
-import { animation } from "react-reveal/globals";
-import transitions from "@material-ui/core/styles/transitions";
+
 
 
 const AppDetails = props => {

@@ -4,7 +4,6 @@ import Grid from "@material-ui/core/Grid";
 
 import "./Apps.scss";
 import AppCard from "../components/AppCard";
-import AppList from "../data/apps/appList.json";
 import AppData from "../data/apps/appList.json";
 
 const Apps = () => {
