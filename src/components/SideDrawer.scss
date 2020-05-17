@@ -8,6 +8,11 @@
   background-color: #2b2b2b;
   z-index: 100;
   transition: ease-in 0.25s;
+  .drawerList {
+    img {
+      animation: rotate 0.75s ease;
+    }
+  }
   ul {
     display: flex;
     flex-direction: column;
@@ -15,7 +20,6 @@
     padding: 0;
     margin: 5px 0 0 0;
     transition: ease 2s;
-
     img {
       height: 30px;
       width: 30px;
@@ -36,6 +40,8 @@
       padding: 2vh 10vw;
       transition: ease 0.25s;
       text-decoration: none;
+      background-color: #2c2c2c;
+
       &:hover {
         background-color: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
@@ -65,9 +71,17 @@
   transition: transform ease 0.15s;
 }
 
-
+@keyframes rotate {
+  from {
+    transform: rotateZ(2rad);
+  }
+  to {
+    transform: rotateZ(0rad);
+  }
+}
 @media (max-width: 400px) {
     .drawer ul img {
         margin-top: 10px;
     }
 }
+

@@ -1,10 +1,13 @@
 import React from 'react'
+import ErrorImg  from '../assets/icon/404.png'
+import  Tada from 'react-reveal/Tada'
+import Style from './NotFound.module.scss';
 
-import './NotFound.scss';
 const NotFound = () => {
     return (
-        <div className="notfound-container"> 
-            <h1>404 Not Found</h1>
+        <div className={Style.container}> 
+        <img src={ErrorImg} alt='404 not found'/>
+        <Tada delay={500}><h1>Not Found</h1></Tada>
         </div>
     )
 }

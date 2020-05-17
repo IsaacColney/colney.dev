@@ -51,8 +51,10 @@ function App() {
           <Route path="/isaac_colney" exact>
             <IsaacColney/>
           </Route>
-          <Redirect from="/404" to="/404_Not_Found" />
-
+          <Route path='/404_not_found' exact>
+            <NotFound/>
+          </Route>
+          <Redirect to="/404_Not_Found" />
         </Switch>
       </main>
       <Footer/>
